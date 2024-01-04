@@ -24,7 +24,7 @@
           <div class="info-item  d-flex flex-column justify-content-center align-items-center">
             <i class="bi bi-map"></i>
             <h3>Our Address</h3>
-            <p>A108 Adam Street, New York, NY 535022</p>
+            <p>Jalan Somba Opu 281, Ujung Pandang, Losari</p>
           </div>
         </div><!-- End Info Item -->
 
@@ -32,7 +32,7 @@
           <div class="info-item d-flex flex-column justify-content-center align-items-center">
             <i class="bi bi-envelope"></i>
             <h3>Email Us</h3>
-            <p>contact@example.com</p>
+            <p>nasrul@gmail.com</p>
           </div>
         </div><!-- End Info Item -->
 
@@ -49,7 +49,7 @@
       <div class="row gy-4 mt-1">
 
         <div class="col-lg-6 ">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.729658573286!2d119.40664487398!3d-5.147152994830098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbf1d522d2d3607%3A0x92885c1f208fd914!2sPT.%20Vale%20Indonesia%20Tbk.%20Makassar%20Representative%20Office!5e0!3m2!1sid!2sid!4v1704353083209!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div><!-- End Google Maps -->
 
         <div class="col-lg-6">
@@ -84,113 +84,4 @@
 
 </main><!-- End #main -->
 
-<!-- ======= Footer ======= -->
-<footer id="footer" class="footer">
-
-  <div class="footer-content position-relative">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-lg-4 col-md-6">
-          <div class="footer-info">
-            <h3>UpConstruction</h3>
-            <p>
-              A108 Adam Street <br>
-              NY 535022, USA<br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-            <div class="social-links d-flex mt-3">
-              <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div><!-- End footer info column-->
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div><!-- End footer links column-->
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div><!-- End footer links column-->
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
-          </ul>
-        </div><!-- End footer links column-->
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
-          </ul>
-        </div><!-- End footer links column-->
-
-      </div>
-    </div>
-  </div>
-
-  <div class="footer-legal text-center position-relative">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>UpConstruction</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </div>
-
-</footer>
-<!-- End Footer -->
-
-<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-<div id="preloader"></div>
-
-<!-- Vendor JS Files -->
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-
-<!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+<?php require 'partials/footer.php' ?>

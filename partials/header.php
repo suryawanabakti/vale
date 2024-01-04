@@ -54,11 +54,12 @@
             <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="/index.php" class="active">Beranda</a></li>
-                    <li><a href="/about.php">About</a></li>
-                    <li><a href="/services.php">Services</a></li>
-                    <li><a href="/projects.php">Projects</a></li>
-                    <li><a href="/blog.php">Blogs</a></li>
+
+                    <li><a href="/index.php" class="<?= $_SERVER['REQUEST_URI'] == '/index.php' ? 'active' : '' ?>">Beranda</a></li>
+                    <li><a href="/about.php" class="<?= $_SERVER['REQUEST_URI'] == '/about.php' ? 'active' : '' ?>">Tentang</a></li>
+                    <li><a href="/services.php" class="<?= $_SERVER['REQUEST_URI'] == '/services.php' ? 'active' : '' ?>">Services</a></li>
+                    <li><a href="/projects.php" class="<?= $_SERVER['REQUEST_URI'] == '/projects.php' ? 'active' : '' ?>">Projects</a></li>
+                    <li><a href="/blog.php" class="<?= $_SERVER['REQUEST_URI'] == '/blog.php' ? 'active' : '' ?>">Blogs</a></li>
 
                     <li><a href="/contact.php">Contact</a></li>
                 </ul>

@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 text-center">
-          <h2 data-aos="fade-down">Welcome to <span>PT.VALE</span></h2>
+          <h2 data-aos="fade-down">Welcome Bro <span>PT.VALE</span></h2>
           <p data-aos="fade-up">Kita hadir untuk meningkatkan kualitas hidup dan membangun masa depan yang lebih baik.
             Bersama.</p>
           <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>

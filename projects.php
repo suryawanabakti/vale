@@ -1,5 +1,11 @@
 <?php require 'partials/header.php' ?>
+<?php
+require 'koneksi.php';
+$services = mysqli_query($conn, "SELECT * FROM services");
 
+$projects = mysqli_query($conn, "SELECT *,services.nama AS nama_service FROM projects INNER JOIN services ON projects.service_id = services.id");
+
+?>
 <main id="main">
 
   <!-- ======= Breadcrumbs ======= -->
@@ -23,22 +29,25 @@
 
         <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
           <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-remodeling">Remodeling</li>
+          <?php foreach ($services as $service) : ?>
+            <li data-filter=".filter-<?= $service['id'] ?>"><?= $service['nama'] ?></li>
+          <?php endforeach; ?>
         </ul><!-- End Projects Filters -->
 
         <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
-            <div class="portfolio-content h-100">
-              <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Remodeling 1</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+          <?php foreach ($projects as $project) : ?>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4><?= $project['nama_service'] ?></h4>
+                  <p><?= $project['judul'] ?></p>
+                  <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
-            </div>
-          </div><!-- End Projects Item -->
+            </div><!-- End Projects Item -->
+          <?php endforeach ?>
 
 
         </div><!-- End Projects Container -->

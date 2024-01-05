@@ -1,5 +1,10 @@
 <?php require 'partials/header.php' ?>
+<?php
 
+require 'koneksi.php';
+$services = mysqli_query($conn, "SELECT * FROM services");
+
+?>
 <main id="main">
 
   <!-- ======= Breadcrumbs ======= -->
@@ -21,22 +26,18 @@
 
       <div class="row gy-4">
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="service-item  position-relative">
-            <div class="icon">
-              <i class="fa-solid fa-mountain-city"></i>
+        <?php foreach ($services as $service) : ?>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-mountain-city"></i>
+              </div>
+              <h3><?= $service['nama'] ?></h3>
+              <p><?= $service['deskripsi'] ?></p>
+              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
             </div>
-            <h3>Nesciunt Mete</h3>
-            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-            <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
           </div>
-        </div><!-- End Service Item -->
-
-
-
-
-
-
+        <?php endforeach; ?>
 
       </div>
 

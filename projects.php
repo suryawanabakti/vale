@@ -38,7 +38,7 @@ $projects = mysqli_query($conn, "SELECT *,services.nama AS nama_service FROM pro
           <?php foreach ($projects as $project) : ?>
             <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
               <div class="portfolio-content h-100">
-                <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
+                <img src="admin/img/projects/<?= $project['gambar'] ?>" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4><?= $project['nama_service'] ?></h4>
                   <p><?= $project['judul'] ?></p>

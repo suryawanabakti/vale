@@ -21,6 +21,7 @@ $services = mysqli_query($conn, "SELECT * FROM services");
                     <h2 class="page-title">
                         Services
                     </h2>
+                    <a href="tambah-service.php" class="btn btn-primary">Tambah Service</a>
                 </div>
             </div>
         </div>

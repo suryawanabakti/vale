@@ -12,6 +12,7 @@ $result = mysqli_query($conn, $sql);
 if ($result->num_rows > 0) {
     $row = mysqli_fetch_assoc($result);
     $_SESSION['nama'] = $row['nama'];
+    $_SESSION['id'] = $row['id'];
     header("Location: ../dashboard.php");
     exit();
 } else {
